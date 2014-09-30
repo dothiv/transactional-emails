@@ -3,9 +3,7 @@ layout: index
 title: Transactional Email Templates
 ---
 
-{% assign domainName = '{{ domainName }}' %}
-{% assign domain = '{{ domainName }}' %}
-
+{% raw %}
 ## click4life.hiv
 
  * Login
@@ -59,3 +57,4 @@ title: Transactional Email Templates
    * en
      * Subject: `We have received your application for a free .hiv domain {{ domain }}`
      * [Text](./tld-nonprofit-registration-received-text.html)
+{% endraw %}

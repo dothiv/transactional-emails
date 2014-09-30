@@ -2,7 +2,9 @@
 layout: tld-text-en
 ---
 
-Hello \{\{ firstname \}\},
+{% raw %}
+Hello {{ firstname }},
 
 Click this link to log in:
-\{\{ loginLink \}\}
+{{ loginLink }}
+{% endraw %}

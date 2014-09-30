@@ -2,10 +2,7 @@
 layout: click4life-de
 ---
 
-{% assign firstname = '{{ firstname }}' %}
-{% assign surname = '{{ surname }}' %}
-{% assign domain = '{{ domain }}' %}
-
+{% raw %}
 <tr width="100%" itemscope itemtype="http://schema.org/EmailMessage">
     <td valign="top" align="left" style="background:#fff; padding: 40px;" itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
         <h1 style="font-size: 20px; margin: 0; color: #333;">
@@ -22,3 +19,4 @@ layout: click4life-de
 
     </td>
 </tr>
+{% endraw %}

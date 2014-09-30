@@ -2,12 +2,7 @@
 layout: click4life-cobranded-en
 ---
 
-{% assign ownerName = '{{ ownerName }}' %}
-{% assign domainName = '{{ domainName }}' %}
-{% assign loginLink = '{{ loginLink }}' %}
-{% assign claimToken = '{{ claimToken }}' %}
-{% assign registrar = '{{ registrar }}' %}
-
+{% raw %}
 <tr width="100%" itemscope itemtype="http://schema.org/EmailMessage">
     <td valign="top" align="left" style="background:#fff; padding: 40px;" itemprop="action" itemscope itemtype="http://schema.org/ViewAction">
         <h1 style="font-size: 20px; margin: 0; color: #333;">
@@ -63,3 +58,4 @@ layout: click4life-cobranded-en
             <em>Together</em>, we can end AIDS. </p>
     </td>
 </tr>
+{% endraw %}
