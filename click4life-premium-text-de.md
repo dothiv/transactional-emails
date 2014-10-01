@@ -13,18 +13,16 @@ Nochmals vielen Dank für Ihre Unterstützung.
 
 ++++++++++ Rechnung ++++++++++
 
-\#{{ invoice.no }}
+\#{{ invoice.no }}  
+{{ invoice.created }}
 
-{{ subscription.fullname }}  
-{{ subscription.address1 }}  
-{{ subscription.address2 }}  
-{{ subscription.country }}
-
-{{ subscription.taxNo }}  
-{{ subscription.vatNo }}  
-{{ subscription.type }}
+{{ invoice.fullname }}  
+{{ invoice.address1 }}  
+{{ invoice.address2 }}  
+{{ invoice.country }}
+{{ invoice.vatNo }}  
 
 {{ invoice.item_description }}: {{ invoice.item_price }}  
-{% if invoice.vat > 0 %}{{ invoice.vat_percent }}% MwSt.: {{ invoice.vat_price }}{% endif %}  
+{% if invoice.vat_percent %}{{ invoice.vat_percent }}% MwSt.: {{ invoice.vat_price }}{% endif %}  
 Summe: {{ invoice.total_price }}
 {% endraw %}

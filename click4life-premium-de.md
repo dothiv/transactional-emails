@@ -20,20 +20,16 @@ layout: click4life-de
         <h2>Rechnung</h2>
                 
         <p>
-            #{{ invoice.no }}
+            #{{ invoice.no }}<br>
+            {{ invoice.created }}
         </p>
         
         <p>
-            {{ subscription.fullname }}<br>
-            {{ subscription.address1 }}<br>
-            {{ subscription.address2 }}<br>
-            {{ subscription.country }}
-        </p>
-        
-        <p>
-            {{ subscription.taxNo }}<br>
-            {{ subscription.vatNo }}<br>
-            <small>{{ subscription.type }}</small>
+            {{ invoice.fullname }}<br>
+            {{ invoice.address1 }}<br>
+            {{ invoice.address2 }}<br>
+            {{ invoice.country }}<br>
+            {{ invoice.vatNo }}
         </p>
         
         <table style="width: 100%">
@@ -46,7 +42,7 @@ layout: click4life-de
                     {{ invoice.item_price }}
                 </td>
             </tr>
-            {% if invoice.vat > 0 %}
+            {% if invoice.vat_percent %}
                 <tr>
                     <td>
                         {{ invoice.vat_percent }}% MwSt.

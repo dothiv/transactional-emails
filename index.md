@@ -38,7 +38,7 @@ title: Transactional Email Templates
 
  * Premium Invoice
    * en
-     * Subject: `Your .hiv premium subscription`
+     * Subject: `Your .hiv premium subscription.`
      * [Text](./click4life-premium-text-en.html)
      * [HTML](./click4life-premium-en.html)
    * de

@@ -9,7 +9,7 @@ layout: click4life-en
             Hello {{ firstname }},</h1>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Thank you for purchasing a premium subscription for your .hiv domain name. </p>
+            Thank you for purchasing a premium invoice.for your .hiv domain name. </p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             We have confirmed your payment and your premium Click-Counter is now active for your domain <strong>{{ domain }}</strong>. </p>
@@ -20,20 +20,16 @@ layout: click4life-en
         <h2>Invoice</h2>
         
         <p>
-            #{{ invoice.no }}
+            #{{ invoice.no }}<br>
+            {{ invoice.created }}
         </p>
         
         <p>
-            {{ subscription.fullname }}<br>
-            {{ subscription.address1 }}<br>
-            {{ subscription.address2 }}<br>
-            {{ subscription.country }}
-        </p>
-        
-        <p>
-            {{ subscription.taxNo }}<br>
-            {{ subscription.vatNo }}<br>
-            <small>{{ subscription.type }}</small>
+            {{ invoice.fullname }}<br>
+            {{ invoice.address1 }}<br>
+            {{ invoice.address2 }}<br>
+            {{ invoice.country }}<br>
+            {{ invoice.vatNo }}
         </p>
         
         <table style="width: 100%">
@@ -46,7 +42,7 @@ layout: click4life-en
                     {{ invoice.item_price }}
                 </td>
             </tr>
-            {% if invoice.vat > 0 %}
+            {% if invoice.vat_percent %}
                 <tr>
                     <td>
                         {{ invoice.vat_percent }}% VAT
