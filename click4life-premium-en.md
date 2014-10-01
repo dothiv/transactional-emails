@@ -36,13 +36,13 @@ layout: click4life-en
             <small>{{ subscription.type }}</small>
         </p>
         
-        <table>
+        <table style="width: 100%">
             <tbody>
             <tr>
                 <td>
                     {{ invoice.item_description }}
                 </td>
-                <td class="money">
+                <td style="text-align: right;">
                     {{ invoice.item_price }}
                 </td>
             </tr>
@@ -51,7 +51,7 @@ layout: click4life-en
                     <td>
                         {{ invoice.vat_percent }}% VAT
                     </td>
-                    <td class="money">
+                    <td style="text-align: right;">
                         {{ invoice.vat_price }}
                     </td>
                 </tr>
@@ -60,10 +60,10 @@ layout: click4life-en
             <tfoot>
             <tr>
                 <td>
-                    Total
+                    <strong>Total</strong>
                 </td>
-                <td class="money">
-                    {{ invoice.total_price }}
+                <td style="text-align: right;">
+                    <strong>{{ invoice.total_price }}</strong>
                 </td>
             </tr>
             </tfoot>

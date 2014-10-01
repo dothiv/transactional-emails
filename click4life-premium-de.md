@@ -16,7 +16,58 @@ layout: click4life-de
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Nochmals vielen Dank für Ihre Unterstützung. </p>
-
+            
+        <h2>Rechnung</h2>
+                
+        <p>
+            #{{ invoice.no }}
+        </p>
+        
+        <p>
+            {{ subscription.fullname }}<br>
+            {{ subscription.address1 }}<br>
+            {{ subscription.address2 }}<br>
+            {{ subscription.country }}
+        </p>
+        
+        <p>
+            {{ subscription.taxNo }}<br>
+            {{ subscription.vatNo }}<br>
+            <small>{{ subscription.type }}</small>
+        </p>
+        
+        <table style="width: 100%">
+            <tbody>
+            <tr>
+                <td>
+                    {{ invoice.item_description }}
+                </td>
+                <td style="text-align: right;">
+                    {{ invoice.item_price }}
+                </td>
+            </tr>
+            {% if invoice.vat > 0 %}
+                <tr>
+                    <td>
+                        {{ invoice.vat_percent }}% MwSt.
+                    </td>
+                    <td style="text-align: right;">
+                        {{ invoice.vat_price }}
+                    </td>
+                </tr>
+            {% endif %} 
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>
+                    <strong>Summe</strong>
+                </td>
+                <td style="text-align: right;">
+                    <strong>{{ invoice.total_price }}</strong>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
     </td>
 </tr>
 {% endraw %}
