@@ -57,4 +57,9 @@ title: Transactional Email Templates
    * en
      * Subject: `We have received your application for a free .hiv domain {{ domain }}`
      * [Text](./tld-nonprofit-registration-received-text.html)
+ * Payitforward
+   * en
+     * Subject: `Your payitforward.hiv order`
+     * [HTML](./tld-payitforward.html)
+     * [Text](./tld-payitforward-text.html)
 {% endraw %}

@@ -19,7 +19,7 @@ Thanks again for your support.
 {{ invoice.fullname }}  
 {{ invoice.address1 }}  
 {{ invoice.address2 }}  
-{{ invoice.country }}
+{{ invoice.country }}  
 {{ invoice.vatNo }}  
 
 {{ invoice.item_description }}: {{ invoice.item_price }}  

@@ -19,7 +19,7 @@ Nochmals vielen Dank für Ihre Unterstützung.
 {{ invoice.fullname }}  
 {{ invoice.address1 }}  
 {{ invoice.address2 }}  
-{{ invoice.country }}
+{{ invoice.country }}  
 {{ invoice.vatNo }}  
 
 {{ invoice.item_description }}: {{ invoice.item_price }}  
