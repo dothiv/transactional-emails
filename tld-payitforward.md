@@ -52,7 +52,8 @@ layout: tld
             The charitable .hiv domains generate new funds and new attention for the end of AIDS.
             {% if domain %}We've joined the .hiv moment with {{ domain }}.{% endif %}
             <br/>
-            You will find further information at <a href="https://click4life.hiv">click4life.hiv</a>.            
+            The <a href="https://www.youtube.com/watch?v=l3ZHd8qbSpE">.hiv movie</a> explains dotHIV's 
+            work at a glance. You will find further information at <a href="https://click4life.hiv">click4life.hiv</a>.
         <p>
                     
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">

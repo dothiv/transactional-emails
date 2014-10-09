@@ -30,7 +30,8 @@ Dear {{ voucher.name }},
 Today I give you a digital Red Ribbon for your website: {{ voucher.domain }}  
 The charitable .hiv domains generate new funds and new attention for the end of AIDS.
 {% if domain %}We've joined the .hiv moment with {{ domain }}.{% endif %}  
-You will find further information at https://click4life.hiv/.            
+The .hiv movie explains dotHIV's work at a glance: https://www.youtube.com/watch?v=l3ZHd8qbSpE  
+You will find further information at https://click4life.hiv/.
 
 You can register your own domain for free at Domaindiscount24 (http://www.domaindiscount24.com/en), dotHIV's affiliated Registrar, with the following voucher code:
 
@@ -40,7 +41,7 @@ Most effective within the next 24 hours!
 
 It is now time to commence a new movement. What do you think? Will you participate and spread the word about the digital Red Ribbon? Just three small steps will direct you to payitforward.hiv.
 
-1. Pass on the joy and give a .hiv domain to 3 friends/ clients/ business partners. You can acquire voucher codes at http://payitforward.hiv at the price of 160€ plus VAT. At least 90€ will support charitable HIV Projects.
+1. Pass on the joy and give a .hiv domain to 3 friends/ clients/ business partners. You can acquire voucher codes at http://payitforward.hiv/ at the price of 160€ plus VAT. At least 90€ will support charitable HIV Projects.
 2. Spread the word on facebook and/ or twitter using hashtag #dotHIV and the links to the presentees.
 3. Send the presentees your love and their own voucher code with a personal email.
 
