@@ -62,4 +62,8 @@ title: Transactional Email Templates
      * Subject: `Your payitforward.hiv order`
      * [HTML](./tld-payitforward.html)
      * [Text](./tld-payitforward-text.html)
+   * de
+      * Subject: `Ihre payitforward.hiv Bestellung`
+      * [HTML](./tld-payitforward-de.html)
+      * [Text](./tld-payitforward-text-de.html)
 {% endraw %}

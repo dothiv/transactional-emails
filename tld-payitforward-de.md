@@ -1,16 +1,16 @@
 ---
-layout: tld
+layout: tld-de
 ---
 
 {% raw %}
 <tr width="100%">
     <td valign="top" align="left" style="background:#fff; padding: 40px;">
         <h1 style="font-size: 20px; margin: 0; color: #333;">
-            Dear {{ firstname }} {{ surname }},</h1>
+            Hallo {{ firstname }} {{ surname }},</h1>
             
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Thank you very much for sharing the digital Red Ribbon.<br/>
-            These are the voucher codes for your friends.
+            Vielen Dank, dass Sie die digitale rote Schleife weitertragen!<br/>
+            Dies sind die Gutschein-Codes für Ihre Freunde.
         </p>
             
         {% for voucher in vouchers %}
@@ -21,23 +21,23 @@ layout: tld
         {% endfor %}
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Please find enclosed the invoice for your purchase.
+            Die Rechnung für Ihren Einkauf finden Sie im Anhang.
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Now you send them your gift - Please find below a proposed email text.
+            Nun senden Sie ihnen Ihr Geschenk – Einen Textvorschlag für Ihre Email haben wir weiter unten für Sie vorbereitet.
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            With your support, the internet becomes one big network for the end of AIDS! We'd like to express our sincere thanks and we wish you a great digital Red Ribbon experience.
+            Mit Ihrer Hilfe wird das Internet zu einem immer größer werdenden Netzwerk für das Ende von AIDS! Wir sagen herzlichen Dank und wünschen viel Freude an Ihrer eigenen digitalen Roten Schleife.
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Your dotHIV Team
+            Ihr dotHIV Team
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            <small>The term of the free domain registration is 1 year. On renewing an additional annual registration fee of 160€  will be incurred, whereby at least 90€ will support HIV Projects.</small>
+            <small>Die Laufzeit der kostenlosen Domainregistrierung beträgt 1 Jahr. Bei Verlängerung fallen pro Folgejahr weitere 160 € Registrierungsgebühr an, von der mindestens 90 € an HIV Projekte gehen.</small>
         </p>
     </td>
 </tr>
@@ -45,19 +45,19 @@ layout: tld
 <tr width="100%">
     <td valign="top" align="left" style="background:#fafafa; padding: 40px;">
         <h1 style="font-size: 15px; margin: 0; color: #333;">
-                    Dear {{ voucher.name }},</h1>
+            Hallo {{ voucher.name }},</h1>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Today I give you a digital Red Ribbon for your website: {{ voucher.domain }}<br/>
-            The charitable .hiv domains generate new funds and new attention for the end of AIDS.
-            {% if domain %}We've joined the .hiv moment with {{ domain }}.{% endif %}
+            heute schenke ich Dir eine digitale rote Schleife für Deine Website: {{ voucher.domain }}<br/>
+            Die gemeinnützigen .hiv-Domains schaffen neue Gelder und neue Aufmerksamkeit für das Ende von AIDS. 
+            {% if domain %}Wir sind mit {{ domain }} dabei.{% endif %}
             <br/>
-            The <a href="https://www.youtube.com/watch?v=l3ZHd8qbSpE">.hiv movie</a> explains dotHIV's 
-            work at a glance. You will find further information at <a href="https://click4life.hiv">click4life.hiv</a>.
+            Das <a href="https://www.youtube.com/watch?v=l3ZHd8qbSpE">.hiv Video</a> erklärt die Arbeit von dotHIV auf einen Blick. 
+            Weitere Infos findest Du auf <a href="https://click4life.hiv">click4life.hiv</a>.
         <p>
                     
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            You can register your own domain for free at <a href="http://www.domaindiscount24.com/en">Domaindiscount24</a>, dotHIV's affiliated Registrar, with the following voucher code:
+            Bei dotHIV's Parterregistrar <a href="http://www.domaindiscount24.com/de">Domaindiscount24</a> kannst Du Deine Domain mit diese Gutscheincode kostenfrei registrieren:
         </p>
         
         <p style="text-align: center;">
@@ -65,26 +65,28 @@ layout: tld
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Most effective within the next 24 hours!
+            Am besten in den nächsten 24 Stunden!
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            It is now time to commence a new movement. What do you think? Will you participate and spread the word about the digital Red Ribbon? Just three small steps will direct you to <a href="http://payitforward.hiv">payitforward.hiv</a>
+            Nun gilt es, eine neue Bewegung zu starten. Wie wär’s? Machst Du mit und trägst die digitale Rote Schleife weiter? Es sind nur drei kleine Schritte auf <a href="http://payitforward.hiv">payitforward.hiv</a>
         </p>
         
         <ol style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            <li>Pass on the joy and give a .hiv domain to 3 friends/ clients/ business partners. You can acquire voucher codes at <a href="http://payitforward.hiv">payitforward.hiv</a> at the price of 160€ plus VAT. At least 90€ will support charitable HIV Projects.</li>
-            <li>Spread the word on facebook and/ or twitter using hashtag #dotHIV and the links to the presentees.</li>
-            <li>Send the presentees your love and their own voucher code with a personal email.</li>
+            <li>Gib die Freude weiter und spendiere 3 Freunden / Kunden / Geschäftspartnern eine .hiv-Domain. 
+            Auf <a href="http://payitforward.hiv">payitforward.hiv</a> sind die Gutschein-Codes für 160 € zzgl. MwSt. zu erwerben. 
+            Mindestens 90 € pro Domain gehen an gemeinnützige HIV-Projekte.</li>
+            <li>Lass Facebook und/oder Twitter davon wissen, mit Hashtag #dotHIV und einem Link auf die Beschenkten.</li>
+            <li>Schicke den Beschenkten ihren Code per E-Mail, die Freude macht. So wie diese hier.</li>
         </ol>
                 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            I would love to see you wearing your own digital Red Ribbon. Let us together set a sign for the end of AIDS.
+            Ich freue mich sehr, wenn Du Deine digitale Rote Schleife trägst. Gemeinsam setzen wir ein Zeichen für das Ende von AIDS!
+
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Yours,<br/>
-            {{ firstname }} {{ surname }}
+            Dein {{ firstname }} {{ surname }}
         </p>
     </td>
 </tr>
@@ -92,7 +94,7 @@ layout: tld
 <tr width="100%">
     <td valign="top" align="left" style="background:#fff; padding: 40px;">
             
-        <h2>Invoice</h2>
+        <h2>Rechnung</h2>
         
         <p>
             #{{ invoice.no }}<br/>
@@ -120,7 +122,7 @@ layout: tld
             {% if invoice.vat_percent %}
                 <tr>
                     <td>
-                        {{ invoice.vat_percent }}% VAT
+                        {{ invoice.vat_percent }}% MwSt.
                     </td>
                     <td style="text-align: right;">
                         {{ invoice.vat_price }}
@@ -131,7 +133,7 @@ layout: tld
             <tfoot>
             <tr>
                 <td>
-                    <strong>Total</strong>
+                    <strong>Summe</strong>
                 </td>
                 <td style="text-align: right;">
                     <strong>{{ invoice.total_price }}</strong>
