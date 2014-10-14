@@ -67,6 +67,12 @@ layout: tld-de
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Am besten in den nächsten 24 Stunden!
         </p>
+              
+        <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
+            <em>Bitte beachten Sie</em>: wenn Sie bei DomainDiscount24 einen neuen Account anlegen, gibt es am Ende des Formulars eine Eingabefeld für einen Promo Code.<br/>
+            Bitte geben Sie dort <strong>nicht</strong> Ihren Gutscheincode ein!<br/>
+            Sie werden bei einem späteren Schritt im Warenkorb nochmal nach dem Gutscheincode gefragt.
+        </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Nun gilt es, eine neue Bewegung zu starten. Wie wär’s? Machst Du mit und trägst die digitale Rote Schleife weiter? Es sind nur drei kleine Schritte auf <a href="http://payitforward.hiv">payitforward.hiv</a>

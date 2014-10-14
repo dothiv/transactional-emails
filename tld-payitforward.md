@@ -69,6 +69,12 @@ layout: tld
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
+            <em>Please note</em>: When creating a new account with DomainDiscount24, there is a box at the end of the page where you can enter a promo code.<br/>
+            Please <strong>do NOT</strong> enter your voucher code there!<br/>
+            You will be ask for code later in the process in your shopping cart.
+        </p>
+        
+        <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             It is now time to commence a new movement. What do you think? Will you participate and spread the word about the digital Red Ribbon? Just three small steps will direct you to <a href="http://payitforward.hiv">payitforward.hiv</a>
         </p>
         

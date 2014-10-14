@@ -39,6 +39,10 @@ You can register your own domain for free at Domaindiscount24 (http://www.domain
 
 Most effective within the next 24 hours!
 
+Please note: When creating a new account with DomainDiscount24, there is a box at the end of the page where you can enter a promo code.    
+Please do NOT enter your voucher code there!  
+You will be ask for code later in the process in your shopping cart.
+
 It is now time to commence a new movement. What do you think? Will you participate and spread the word about the digital Red Ribbon? Just three small steps will direct you to payitforward.hiv
 
 1. Pass on the joy and give a .hiv domain to 3 friends/ clients/ business partners. You can acquire voucher codes at http://payitforward.hiv/ at the price of 160€ plus VAT. At least 90€ will support charitable HIV Projects.

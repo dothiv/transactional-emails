@@ -37,7 +37,11 @@ Bei dotHIV's Parterregistrar Domaindiscount24 (http://www.domaindiscount24.com/d
 
 {{ voucher.code }}
 
-Most effective within the next 24 hours!
+Am besten in den nächsten 24 Stunden!
+
+Bitte beachten Sie: wenn Sie bei DomainDiscount24 einen neuen Account anlegen, gibt es am Ende des Formulars eine Eingabefeld für einen Promo Code.    
+Bitte geben Sie dort nicht Ihren Gutscheincode ein!  
+Sie werden bei einem späteren Schritt im Warenkorb nochmal nach dem Gutscheincode gefragt.
 
 Nun gilt es, eine neue Bewegung zu starten. Wie wär’s? Machst Du mit und trägst die digitale Rote Schleife weiter? Es sind nur drei kleine Schritte auf payitforward.hiv
 
