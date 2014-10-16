@@ -30,8 +30,7 @@ Hallo {{ voucher.name }},
 heute schenke ich Dir eine digitale rote Schleife für Deine Website: {{ voucher.domain }}  
 Die gemeinnützigen .hiv-Domains schaffen neue Gelder und neue Aufmerksamkeit für das Ende von AIDS.  
 {% if domain %}Wir sind mit {{ domain }} dabei.{% endif %}
-Das .hiv Video erklärt die Arbeit von dotHIV auf einen Blick: https://www.youtube.com/watch?v=l3ZHd8qbSpE      
-Weitere Infos findest Du auf https://click4life.hiv/.
+Die beiliegende Infografik erklärt die Arbeit von dotHIV auf einen Blick. Weitere Infos findest Du auf https://click4life.hiv/.
 
 Bei dotHIV's Parterregistrar Domaindiscount24 (http://www.domaindiscount24.com/de) kannst Du Deine Domain mit diese Gutscheincode kostenfrei registrieren:
 

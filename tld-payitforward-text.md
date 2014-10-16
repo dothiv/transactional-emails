@@ -30,8 +30,7 @@ Dear {{ voucher.name }},
 Today I give you a digital Red Ribbon for your website: {{ voucher.domain }}  
 The charitable .hiv domains generate new funds and new attention for the end of AIDS.
 {% if domain %}We've joined the .hiv moment with {{ domain }}.{% endif %}  
-The .hiv movie explains dotHIV's work at a glance: https://www.youtube.com/watch?v=l3ZHd8qbSpE  
-You will find further information at https://click4life.hiv/.
+The attached infographic explains dotHIV's work at a glance. You will find further information at https://click4life.hiv/.
 
 You can register your own domain for free at Domaindiscount24 (http://www.domaindiscount24.com/en), dotHIV's affiliated Registrar, with the following voucher code:
 

@@ -52,7 +52,7 @@ layout: tld-de
             Die gemeinnützigen .hiv-Domains schaffen neue Gelder und neue Aufmerksamkeit für das Ende von AIDS. 
             {% if domain %}Wir sind mit {{ domain }} dabei.{% endif %}
             <br/>
-            Das <a href="https://www.youtube.com/watch?v=l3ZHd8qbSpE">.hiv Video</a> erklärt die Arbeit von dotHIV auf einen Blick. 
+            Die beiliegende Infografik erklärt die Arbeit von dotHIV auf einen Blick. 
             Weitere Infos findest Du auf <a href="https://click4life.hiv">click4life.hiv</a>.
         <p>
                     
