@@ -45,6 +45,15 @@ title: Transactional Email Templates
      * Subject: `Ihr .hiv Premium Abonnement`
      * [Text](./click4life-premium-text-de.html)
      * [HTML](./click4life-premium-de.html)
+     
+ * Click-counter configuration
+   * en
+     * Subject: `Click-Counter configuration for your {{ domainName }}`
+     * [Text](./click4life-click-counter-configuration-text-en.html)
+     * [HTML](./click4life-click-counter-configuration-en.html)
+   * de
+     * Subject: `Click-Counter-Konfiguration für Ihre {{ domainName }}`
+     
 
 ## tld.hiv
 
