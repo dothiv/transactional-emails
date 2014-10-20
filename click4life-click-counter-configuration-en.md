@@ -9,13 +9,13 @@ layout: click4life-en
             Hello {{ firstname }}, </h1>
             
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Thank you for configuring the click-counter! You are only a tiny little step away from joining the .hiv micro-donation.
+            Thank you for configuring the click-counter! You are only a tiny little step away from joining the .hiv micro-donation program.
         </p>
         
         {% if forward %}
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            There are two different ways to make sure that the click-counter works at your domain <strong>{{ domainName }}</strong> and your visitor is forwarded to {{ forward }}:
+            There are two different ways to make sure that the click-counter works at your domain <strong>{{ domainName }}</strong> and your visitors are forwarded to <em>{{ forward }}</em>:
         </p>
         
         <h2 style="font-size: 16px; margin: 0; color: #333;">1) A new webspace for {{ domainName }}</h2>
@@ -28,7 +28,7 @@ layout: click4life-en
             <strong>-OR-</strong>
         </p>
         
-        <h2 style="font-size: 16px; margin: 0; color: #333;">2) Configure a CNAME {{ domainName }}</h2>
+        <h2 style="font-size: 16px; margin: 0; color: #333;">2) Configure a CNAME for {{ domainName }}</h2>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             At most registrars, you can configure CNAME records for your .hiv domain. Just use <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">{{ secondLevelDomainName }}.iframe.click4life.hiv</code> as the CNAME for your <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www</code> subdomain.</p>
@@ -48,10 +48,10 @@ layout: click4life-en
         {% else %}
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            It's just a small excursion into the code of your homepage: In order for the click-counter to be shown at your domain {{ domainName }} you need to include the following line of code just before the <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">&lt;/body&gt;</code> tag of your site:
+            It's just a small excursion into the code of your homepage: In order for the click-counter to be shown at your domain <strong>{{ domainName }}</strong> you need to include the following line of code just before the <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">&lt;/body&gt;</code> tag of your site:
         </p>
         
-        <pre style="padding: 2px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">&lt;script<br/>    src="//dothiv-registry.appspot.com/static/clickcounter.min.js"<br/>    type="text/javascript"&gt;<br/>&lt;/script&gt;</pre>
+        <pre style="padding: 2px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">&lt;script<br/>    src=&quot;//dothiv-registry.appspot.com/static/clickcounter.min.js&quot;<br/>    type=&quot;text/javascript&quot;&gt;<br/>&lt;/script&gt;</pre>
         
         {% endif %}
         

@@ -5,10 +5,10 @@ layout: tld-text-en
 {% raw %}
 Hello {{ firstname }},
 
-Thank you for configuring the click-counter! You are only a tiny little step away from joining the .hiv micro-donation.
+Thank you for configuring the click-counter! You are only a tiny little step away from joining the .hiv micro-donation program.
 
 {% if forward %}
-There are two different ways to make sure that the click-counter works at your domain <strong>{{ domainName }}</strong> and your visitor is forwarded to {{ forward }}:
+There are two different ways to make sure that the click-counter works at your domain <strong>{{ domainName }}</strong> and your visitors are forwarded to {{ forward }}:
 
 \#\# 1) A new webspace for {{ domainName }}
 
@@ -16,7 +16,7 @@ Configure a webspace for the domain and place the attached index.html in the roo
 
  -OR-
 
-\#\# 2) Configure a CNAME {{ domainName }}
+\#\# 2) Configure a CNAME for {{ domainName }}
 
 At most registrars, you can configure CNAME records for your .hiv domain. Just use {{ secondLevelDomainName }}.iframe.click4life.hiv as the CNAME for your www subdomain.
 

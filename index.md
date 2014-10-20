@@ -53,7 +53,8 @@ title: Transactional Email Templates
      * [HTML](./click4life-click-counter-configuration-en.html)
    * de
      * Subject: `Click-Counter-Konfiguration für Ihre {{ domainName }}`
-     
+     * [Text](./click4life-click-counter-configuration-text-de.html)
+     * [HTML](./click4life-click-counter-configuration-de.html)
 
 ## tld.hiv
 
