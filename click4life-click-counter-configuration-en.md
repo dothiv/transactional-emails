@@ -9,25 +9,29 @@ layout: click4life-en
             Hello {{ firstname }}, </h1>
             
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Thank you for configuring the click-counter!
+            Thank you for configuring the click-counter! You are only a tiny little step away from joining the .hiv micro-donation.
         </p>
         
         {% if forward %}
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            In order for the click-counter to be shown at your domain <strong>{{ domainName }}</strong> and the visitor is forwarded to {{ forward }} you need to ensure that the click-counter code is served to the visitor. You have two ways of achieving this:
+            There are two different ways to make sure that the click-counter works at your domain <strong>{{ domainName }}</strong> and your visitor is forwarded to {{ forward }}:
         </p>
         
-        <h2 style="font-size: 16px; margin: 0; color: #333;">Configure a webspace</h2>
+        <h2 style="font-size: 16px; margin: 0; color: #333;">1) A new webspace for {{ domainName }}</h2>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Configure a webspace for the domain and place the attached <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">index.html</code> in the root folder of the webspace.
         </p>
         
-        <h2 style="font-size: 16px; margin: 0; color: #333;">-OR- Configure a CNAME</h2>
+        <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
+            <strong>-OR-</strong>
+        </p>
+        
+        <h2 style="font-size: 16px; margin: 0; color: #333;">2) Configure a CNAME {{ domainName }}</h2>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            If you can configure CNAME records for your .hiv domain at your registrar, you can use <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">{{ secondLevelDomainName }}.iframe.click4life.hiv</code> as the CNAME for your <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www</code> subdomain.</p>
+            At most registrars, you can configure CNAME records for your .hiv domain. Just use <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">{{ secondLevelDomainName }}.iframe.click4life.hiv</code> as the CNAME for your <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www</code> subdomain.</p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             As you cannot configure CNAME records for apex domains, you need to configure a redirect for <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">{{ domainName }}</code> to <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www.{{ domainName }}</code> additionally.
@@ -44,12 +48,18 @@ layout: click4life-en
         {% else %}
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            In order for the click-counter to be shown at your domain {{ domainName }} you need to include the following line of code just before the <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">&lt;/body&gt;</code> tag of your site:
+            It's just a small excursion into the code of your homepage: In order for the click-counter to be shown at your domain {{ domainName }} you need to include the following line of code just before the <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">&lt;/body&gt;</code> tag of your site:
         </p>
         
         <pre style="padding: 2px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">&lt;script<br/>    src="//dothiv-registry.appspot.com/static/clickcounter.min.js"<br/>    type="text/javascript"&gt;<br/>&lt;/script&gt;</pre>
         
         {% endif %}
+        
+        <h2 style="font-size: 16px; margin: 0; color: #333;">Done?</h2>
+        
+        <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
+            Wonderful! Now every visit on your .hiv domain counts to help end AIDS.
+        </p>
         
         <h2 style="font-size: 16px; margin: 0; color: #333;">Need help?</h2>
         
