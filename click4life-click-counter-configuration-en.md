@@ -31,7 +31,7 @@ layout: click4life-en
         <h2 style="font-size: 16px; margin: 0; color: #333;">2) Configure a CNAME for {{ domainName }}</h2>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            At most registrars, you can configure CNAME records for your .hiv domain. Just use <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">{{ secondLevelDomainName }}.iframe.click4life.hiv</code> as the CNAME for your <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www</code> subdomain.</p>
+            At most registrars, you can configure CNAME records for your .hiv domain. Just use <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">iframe.clickcounter.hiv</code> as the CNAME for your <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www</code> subdomain.</p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             As you cannot configure CNAME records for apex domains, you need to configure a redirect for <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">{{ domainName }}</code> to <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www.{{ domainName }}</code> additionally.

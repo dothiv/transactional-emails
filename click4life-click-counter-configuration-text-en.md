@@ -18,7 +18,7 @@ Configure a webspace for the domain and place the attached index.html in the roo
 
 \#\# 2) Configure a CNAME for {{ domainName }}
 
-At most registrars, you can configure CNAME records for your .hiv domain. Just use {{ secondLevelDomainName }}.iframe.click4life.hiv as the CNAME for your www subdomain.
+At most registrars, you can configure CNAME records for your .hiv domain. Just use iframe.clickcounter.hiv as the CNAME for your www subdomain.
 
 As you cannot configure CNAME records for apex domains, you need to configure a redirect for {{ domainName }} to www.{{ domainName }} additionally.
 

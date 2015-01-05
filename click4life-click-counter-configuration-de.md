@@ -31,7 +31,7 @@ layout: click4life-de
         <h2 style="font-size: 16px; margin: 0; color: #333;">2) Richten Sie einen CNAME für {{ domainName }} ein</h2>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Bei den meisten Registraren können Sie CNAME-Einträge für Ihre .hiv-Domain einrichten. Verwenden Sie einfach <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">{{ secondLevelDomainName }}.iframe.click4life.hiv</code> als CNAME für Ihre <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www</code>-Subdomain.
+            Bei den meisten Registraren können Sie CNAME-Einträge für Ihre .hiv-Domain einrichten. Verwenden Sie einfach <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">iframe.clickcounter.hiv</code> als CNAME für Ihre <code style="padding: 0px 4px; color: #d14; background-color: #f7f7f9; border: 1px solid #e1e1e8;">www</code>-Subdomain.
         </p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">

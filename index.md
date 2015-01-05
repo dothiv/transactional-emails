@@ -55,6 +55,16 @@ title: Transactional Email Templates
      * Subject: `Click-Counter-Konfiguration für Ihre {{ domainName }}`
      * [Text](./click4life-click-counter-configuration-text-de.html)
      * [HTML](./click4life-click-counter-configuration-de.html)
+     
+ * User profile change
+   * en
+     * Subject: `Please confirm your user profile change`
+     * [Text](./click4life-user-profile-change-text-en.html)
+     * [HTML](./click4life-user-profile-change-en.html)
+   * de
+     * Subject: `Bitte bestätigen Sie die Änderung Ihres Nutzerprofils`
+     * [Text](./click4life-user-profile-change-text-de.html)
+     * [HTML](./click4life-user-profile-change-de.html)
 
 ## tld.hiv
 

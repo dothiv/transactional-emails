@@ -18,7 +18,7 @@ Richten Sie einen Webspace für die Domain ein und platzieren Sie die angehängt
 
 \#\# 2) Richten Sie einen CNAME für {{ domainName }} ein
 
-Bei den meisten Registraren können Sie CNAME-Einträge für Ihre .hiv-Domain einrichten. Verwenden Sie einfach {{ secondLevelDomainName }}.iframe.click4life.hiv als CNAME für Ihre www-Subdomain.
+Bei den meisten Registraren können Sie CNAME-Einträge für Ihre .hiv-Domain einrichten. Verwenden Sie einfach iframe.clickcounter.hiv als CNAME für Ihre www-Subdomain.
 
 Da man keine CNAME-Einträge für Basis-Domains einrichten kann, müssen Sie zusätzlich eine Weiterleitung von {{ domainName }} nach www.{{ domainName }} einrichten.
 
