@@ -3,7 +3,7 @@ layout: tld-text-de
 ---
 
 {% raw %}
-Hallo {{ firstname }} {{ surname }},  
+Hallo {{ firstname }} {{ lastname }},  
 Herzlichen Dank, dass Sie sich für eine .hiv Adresse entschieden haben.
 
 {{ domain }} ist Ihre digitale Rote Schleife! Wir hoffen, Sie nutzen sie mit Stolz.

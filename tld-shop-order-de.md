@@ -6,7 +6,7 @@ layout: tld-de
 <tr width="100%">
     <td valign="top" align="left" style="background:#fff; padding: 40px;">
         <h1 style="font-size: 20px; margin: 0; color: #333;">
-            Hallo {{ firstname }} {{ surname }},</h1>
+            Hallo {{ firstname }} {{ lastname }},</h1>
             
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Herzlichen Dank, dass Sie sich für eine .hiv Adresse entschieden haben.
