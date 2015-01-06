@@ -86,14 +86,13 @@ title: Transactional Email Templates
       * Subject: `Ihre payitforward.hiv Bestellung`
       * [HTML](./tld-payitforward-de.html)
       * [Text](./tld-payitforward-text-de.html)
- * Shop
-   * Order (regular domain)
-       * en
-         * Subject: `{{ domain }} : your digital Red Ribbon`
-         * [HTML](./tld-shop-order.html)
-         * [Text](./tld-shop-order-text.html)
-       * de
-         * Subject: `{{ domain }} : Ihre digitale Rote Schleife`
-         * [HTML](./tld-shop-order-de.html)
-         * [Text](./tld-shop-order-text-de.html)
+ * Order (regular domain)
+   * en
+      * Subject: `{{ domain }} : your digital Red Ribbon`
+      * [HTML](./tld-shop-order.html)
+      * [Text](./tld-shop-order-text.html)
+   * de
+      * Subject: `{{ domain }} : Ihre digitale Rote Schleife`
+      * [HTML](./tld-shop-order-de.html)
+      * [Text](./tld-shop-order-text-de.html)
 {% endraw %}
