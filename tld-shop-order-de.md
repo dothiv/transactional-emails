@@ -62,7 +62,7 @@ layout: tld-de
                 <td>
                     {{ invoice.item_description }}
                 </td>
-                <td style="text-align: right;">
+                <td style="text-align: right; white-space: nowrap;">
                     {{ invoice.item_price }}
                 </td>
             </tr>
@@ -71,7 +71,7 @@ layout: tld-de
                     <td>
                         {{ invoice.vat_percent }}% MwSt.
                     </td>
-                    <td style="text-align: right;">
+                    <td style="text-align: right; white-space: nowrap;">
                         {{ invoice.vat_price }}
                     </td>
                 </tr>
@@ -82,7 +82,7 @@ layout: tld-de
                 <td>
                     <strong>Summe</strong>
                 </td>
-                <td style="text-align: right;">
+                <td style="text-align: right; white-space: nowrap;">
                     <strong>{{ invoice.total_price }}</strong>
                 </td>
             </tr>
