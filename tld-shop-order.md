@@ -29,10 +29,6 @@ layout: tld
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Now let the world know about the second entrance to your homepage that helps save lives: Download the “<a href="https://click4life.hiv/en/p/about/getactive#about-getactive-howto">Tell-the-World-Package</a>” with an easy toolbox that helps you to direct your users to {{ domain }}.
-        </p>
-        
-        <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Together, we can end AIDS.
         </p>
     </td>

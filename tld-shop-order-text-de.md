@@ -12,9 +12,7 @@ dotHIV belohnt jeden Besuch mit einer kleine Spende an HIV Organisationen auf de
 
 Aus technischen Gründen kann es bis zu 48 Stunden dauern, bis {{ domain }} online erreichbar ist. Herzlichen Dank für Ihr Verständnis.
 
-Um Ihren Click-Counter anzupassen und auf Ihre Klick-Statistiken zuzugreifen, können Sie sich hier mit Ihrer Emailadresse {{ email }} in Ihr Kundenprofil hier einloggen: https://click4life.hiv/de/account
-
-Nun soll die Welt auch vom neuen, zweiten Eingang zu Ihrer Homepage erfahren, der mithilft, Leben zu retten. In unserem “Tell-the-World-Package” finden Sie 12 Tipps für einfache und schnelle Maßnahmen, die Ihre User auf {{ domain }} aufmerksam machen: https://click4life.hiv/de/p/about/getactive#about-getactive-howto
+Um Ihren Click-Counter anzupassen und auf Ihre Klick-Statistiken zuzugreifen, können Sie sich hier mit Ihrer Emailadresse {{ email }} in Ihr Kundenprofil einloggen: https://click4life.hiv/de/account
 
 Zusammen können wir AIDS besiegen.
 

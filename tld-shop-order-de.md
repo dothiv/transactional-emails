@@ -26,11 +26,7 @@ layout: tld-de
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Um Ihren Click-Counter anzupassen und auf Ihre Klick-Statistiken zuzugreifen, können Sie sich hier mit Ihrer Emailadresse {{ email }} in Ihr Kundenprofil <a href="https://click4life.hiv/de/account">hier</a> einloggen.
-        </p>
-        
-        <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            Nun soll die Welt auch vom neuen, zweiten Eingang zu Ihrer Homepage erfahren, der mithilft, Leben zu retten. In unserem “<a href="https://click4life.hiv/de/p/about/getactive#about-getactive-howto">Tell-the-World-Package</a>” finden Sie 12 Tipps für einfache und schnelle Maßnahmen, die Ihre User auf {{ domain }} aufmerksam machen.
+            Um Ihren Click-Counter anzupassen und auf Ihre Klick-Statistiken zuzugreifen, können Sie sich <a href="https://click4life.hiv/de/account">hier</a> mit Ihrer Emailadresse {{ email }} in Ihr Kundenprofil einloggen.
         </p>
         
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">

@@ -14,8 +14,6 @@ For technical reasons, it might take up to 48 hours until {{ domain }} is online
 
 To adapt your Click-Counter and access your Click Stats, you can log into your customer account with your email {{ email }} here: https://click4life.hiv/en/account
 
-Now let the world know about the second entrance to your homepage that helps save lives: Download the “Tell-the-World-Package” with an easy toolbox that helps you to direct your users to {{ domain }}: https://click4life.hiv/en/p/about/getactive#about-getactive-howto
-
 Together, we can end AIDS.
 
 ++++++++++ Invoice ++++++++++
