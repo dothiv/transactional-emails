@@ -17,9 +17,10 @@ layout: click4life-de
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Ihre .hiv Webseite kann helfen, Leben zu retten. dotHIV belohnt jeden Besuch mit einer
-            kleine Spende an HIV Organisationen auf der ganzen Welt. Organisationen wie 'We actX for
-            Hope' aus Ruanda, die betroffene Frauen dabei hilft, gesunde Kinder zur Welt zu bringen und
-            großzuziehen. </p>
+            kleine Spende an HIV Organisationen auf der ganzen Welt. Organisationen wie 
+            <a href="https://click4life.hiv/de/projects">We actX for Hope</a> aus Ruanda, aus Ruanda, 
+            die Müttern, Kindern und Jugendlichen eine Lebensperspektive bauen.
+        </p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Alles was es dazu braucht, ist Ihre Teilnahme am dotHIV Mikro-Spenden-Programm: </p>
@@ -57,7 +58,8 @@ layout: click4life-de
             unter <a href="https://click4life.hiv/">click4life.hiv</a>. </p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            <em>Zusammen</em>, können wir AIDS besiegen. </p>
+            Gemeinsam arbeiten wir für das Ende von AIDS.            
+        </p>
     </td>
 </tr>
 {% endraw %}

@@ -16,8 +16,9 @@ layout: click4life-en
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Your .hiv domain can help save lives. dotHIV rewards every visit with a small donation to
-            HIV organizations around the world, like 'WE ACTx for hope' from Rwanda, which helps women
-            living with HIV to give birth to and raise healthy babies. </p>
+            HIV organizations around the world, like <a href="https://click4life.hiv/en/projects">WE ACTx for hope</a>
+            from Rwanda, who provide mothers, children and adolescents with a new perspective on their life.
+        </p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             To make this work, all you need to do is join dotHIV’s micro donation program: </p>
@@ -46,16 +47,17 @@ layout: click4life-en
         </ol>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-
             It takes no more than 10 minutes, to make your website part of the dotHIV movement and to
-            show your website visitors that you care. </p>
+            show your website visitors that you care. 
+        </p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
             Learn more about .hiv domain names and the work of the charitable initiative dotHIV behind
             it at <a href="https://click4life.hiv/">click4life.hiv</a>. </p>
 
         <p style="font: 15px/1.25em 'Helvetica Neue', Arial, Helvetica; color: #333;">
-            <em>Together</em>, we can end AIDS. </p>
+            We are together behind the same goal: to end AIDS. 
+        </p>
     </td>
 </tr>
 {% endraw %}

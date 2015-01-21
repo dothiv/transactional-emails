@@ -9,7 +9,7 @@ Thank you for registering a .hiv domain name.
 
 {{ domainName }} is your digital Red Ribbon! Use it with pride.
 
-Your .hiv domain can help save lives. dotHIV rewards every visit with a small donation to HIV organizations around the world, like 'WE ACTx for hope' from Rwanda, which helps women living with HIV to give birth to and raise healthy babies.
+Your .hiv domain can help save lives. dotHIV rewards every visit with a small donation to HIV organizations around the world, like 'WE ACTx for hope' from Rwanda, who provide mothers, children and adolescents with a new perspective on their life.
  
 To make this work, all you need to do is join dotHIV’s micro donation program:
 
@@ -22,5 +22,5 @@ It takes no more than 10 minutes, to make your website part of the dotHIV moveme
  
 Learn more about .hiv domain names and the work of the charitable initiative dotHIV behind it  at click4life.hiv
  
-Together, we can end AIDS.
+We are together behind the same goal: to end AIDS.
 {% endraw %}

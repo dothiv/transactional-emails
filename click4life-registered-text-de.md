@@ -9,7 +9,7 @@ Herzlichen Dank, dass Sie sich für eine .hiv Adresse entschieden haben.
  
 {{ domainName }} ist Ihre digitale Rote Schleife! Wir hoffen, Sie nutzen sie mit Stolz.
  
-Ihre .hiv Webseite kann helfen, Leben zu retten. dotHIV belohnt jeden Besuch mit einer kleine Spende an HIV Organisationen auf der ganzen Welt. Organisationen wie 'We actX for Hope' aus Ruanda, die betroffene Frauen dabei hilft, gesunde Kinder zur Welt zu bringen und großzuziehen.
+Ihre .hiv Webseite kann helfen, Leben zu retten. dotHIV belohnt jeden Besuch mit einer kleine Spende an HIV Organisationen auf der ganzen Welt. Organisationen wie 'We actX for Hope' aus Ruanda, die Müttern, Kindern und Jugendlichen eine Lebensperspektive bauen.
  
 Alles was es dazu braucht, ist Ihre Teilnahme am dotHIV Mikro-Spenden-Programm:
 
@@ -23,5 +23,5 @@ Und lässt Ihre Seitenbesucher Anteil nehmen an Ihrem Engagement.
  
 Erfahren Sie mehr über .hiv Adressen und die gemeinnützige Arbeit der dotHIV Initiative unter click4life.hiv.
  
-Zusammen können wir AIDS besiegen.
+Gemeinsam arbeiten wir für das Ende von AIDS.
 {% endraw %}
