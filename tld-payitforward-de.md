@@ -112,10 +112,29 @@ layout: tld-de
             {{ invoice.address1 }}<br/>
             {{ invoice.address2 }}<br/>
             {{ invoice.country }}<br/>
+            {{ invoice.organization }}<br/>
             {{ invoice.vatNo }}
         </p>
         
         <table style="width: 100%">
+            <tfoot>
+            <tr>
+                <td>
+                    <strong>Summe</strong>
+                </td>
+                <td style="text-align: right; white-space: nowrap;">
+                    <strong>{{ invoice.total_price }}</strong>
+                </td>
+            </tr>
+            {% if invoice.show_reverse_charge_note %}
+            <tr>
+            <td colspan="2">
+                Note: Services are subject to the reverse charge.<br/>
+                VAT is to be accounted for by the recipient.
+            </td>
+            </tr>
+            {% endif %}
+            </tfoot>
             <tbody>
             <tr>
                 <td>
@@ -136,16 +155,6 @@ layout: tld-de
                 </tr>
             {% endif %} 
             </tbody>
-            <tfoot>
-            <tr>
-                <td>
-                    <strong>Summe</strong>
-                </td>
-                <td style="text-align: right; white-space: nowrap;">
-                    <strong>{{ invoice.total_price }}</strong>
-                </td>
-            </tr>
-            </tfoot>
         </table>
     </td>
 </tr>
