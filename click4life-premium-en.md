@@ -25,11 +25,11 @@ layout: click4life-en
         </p>
         
         <p>
+            {{ invoice.organization }}<br/>
             {{ invoice.fullname }}<br>
             {{ invoice.address1 }}<br>
             {{ invoice.address2 }}<br>
             {{ invoice.country }}<br>
-            {{ invoice.organization }}<br/>
             {{ invoice.vatNo }}
         </p>
         

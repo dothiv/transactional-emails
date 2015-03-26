@@ -45,11 +45,11 @@ layout: tld-de
         </p>
         
         <p>
+            {{ invoice.organization }}<br/>
             {{ invoice.fullname }}<br/>
             {{ invoice.address1 }}<br/>
             {{ invoice.address2 }}<br/>
             {{ invoice.country }}<br/>
-            {{ invoice.organization }}<br/>
             {{ invoice.vatNo }}
         </p>
         

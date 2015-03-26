@@ -21,11 +21,11 @@ Zusammen können wir AIDS besiegen.
 \#{{ invoice.no }}  
 {{ invoice.created }}
 
+{{ invoice.organization }}  
 {{ invoice.fullname }}  
 {{ invoice.address1 }}  
 {{ invoice.address2 }}  
 {{ invoice.country }}  
-{{ invoice.organization }}  
 {{ invoice.vatNo }}
 
 {{ invoice.item_description }}: {{ invoice.item_price }}  
